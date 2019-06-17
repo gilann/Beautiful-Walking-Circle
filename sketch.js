@@ -9,7 +9,7 @@ var b= 200;
 var speed = 5;
 var col = 1;
 function draw() {
-	stroke(255,g,b,);
+	stroke(g,b,255);
 	strokeWeight(5);
 	ellipse(x, y, 100, 100);
 	if(x>windowWidth/2){
